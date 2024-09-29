@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+body {
+  @apply bg-gray-100 text-gray-900; /* Modo claro */
+}
+
+body.dark {
+  @apply bg-gray-900 text-gray-100; /* Modo oscuro */
+}
