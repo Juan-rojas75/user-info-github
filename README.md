@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js User info - Github 🎬
 
-## Getting Started
+Una aplicación de películas construida con Next.js que permite a los usuarios explorar películas populares, ver detalles y marcar sus favoritas. Además, puedes buscar y explorar usuarios de GitHub.
 
-First, run the development server:
+## 📋 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔍 **Exploración de usuarios API GitHub:** Busca y explora usuarios de GitHub mediante su API.
+- 📑 **Detalles de Películas:** Consulta información detallada de cada película, incluyendo descripción, géneros, fecha de lanzamiento, etc.
+- 🔧 **Integración con API Externa:** Utiliza la API de GitHub para obtener datos actualizados.
+- 🌙 **Modo Oscuro:** Alterna entre modos claro y oscuro para una mejor experiencia visual.
+- 🗄️ **Almacenamiento Local:** Guarda información de usuarios en localStorage para un acceso más rápido.
+#
+# 🛠 Tecnologías Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/) - Framework React para aplicaciones web.
+- [TypeScript](https://www.typescriptlang.org/) - Superset de JavaScript tipado.
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilos.
+- [Axios](https://axios-http.com/) - Cliente HTTP para llamadas a la API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Sigue estos pasos para instalar y ejecutar la aplicación en tu máquina local.
 
-## Learn More
+### Prerrequisitos
 
-To learn more about Next.js, take a look at the following resources:
+- **Node.js**: Requiere Node.js versión 14 o superior.
+- **NPM o Yarn**: Gestor de paquetes de Node.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Pasos de Instalación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clona este repositorio:**
 
-## Deploy on Vercel
+    ```bash
+    git clone https://github.com/Juan-rojas75/user-info-github.git
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Instala las dependencias:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Usando npm:
+
+    ```bash
+    npm install
+    ```
+
+    O usando yarn:
+
+    ```bash
+    yarn install
+    ```
+
+3. **Configura las Variables de Entorno:**
+
+    Crea un archivo `.development.env` en la raíz del proyecto y añade las siguientes variables de entorno:
+
+4. **Inicia el Servidor de Desarrollo:**
+
+    Usando npm:
+
+    ```bash
+    npm run dev
+    ```
+
+    O usando yarn:
+
+    ```bash
+    yarn dev
+    ```
+
+    Abre tu navegador y ve a `http://localhost:3000` para ver la aplicación en acción.
+
+## 📂 Estructura del Proyecto
+
+Una breve descripción de la estructura del proyecto:
+
+```plaintext
+.
+├── components       # Componentes reutilizables
+├── pages            # Páginas del proyecto
+├── public           # Archivos públicos estáticos (imágenes, iconos, etc.)
+├── styles           # Archivos CSS
+├── utils            # Utilidades y funciones auxiliares
+└── README.md        # Documentación del proyecto
