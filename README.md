@@ -1,11 +1,10 @@
 # Next.js User info - Github 🎬
 
-Una aplicación de películas construida con Next.js que permite a los usuarios explorar películas populares, ver detalles y marcar sus favoritas. Además, puedes buscar y explorar usuarios de GitHub.
+Una aplicación de información de usuarios construida con Next.js que permite a los usuarios exporar información de usuarios de github
 
 ## 📋 Características
 
 - 🔍 **Exploración de usuarios API GitHub:** Busca y explora usuarios de GitHub mediante su API.
-- 📑 **Detalles de Películas:** Consulta información detallada de cada película, incluyendo descripción, géneros, fecha de lanzamiento, etc.
 - 🔧 **Integración con API Externa:** Utiliza la API de GitHub para obtener datos actualizados.
 - 🌙 **Modo Oscuro:** Alterna entre modos claro y oscuro para una mejor experiencia visual.
 - 🗄️ **Almacenamiento Local:** Guarda información de usuarios en localStorage para un acceso más rápido.
